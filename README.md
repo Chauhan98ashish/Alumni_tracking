@@ -1,2 +1,2 @@
-# Alumni_tracking
-SIH project for year 2020 at "Intra-college level"
+# alumni_tracking_system
+Sih Hackathon project with message and mail function.

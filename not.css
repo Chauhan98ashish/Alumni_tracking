@@ -1,0 +1,137 @@
+body{
+    background:-webkit-linear-gradient(left,red,yellow);
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    animation:color 17s ease infinite;
+}
+@keyframes color{
+    0%{
+        background:orangered;
+    }
+    25%{
+        background:skyblue;
+    }
+    75%{
+        background:orange;
+    }
+    100%{
+        background:burlywood;
+    }
+}
+
+.reg{
+    text-align: center;
+    background: ghostwhite;
+    border:4 px solid;
+    margin:0px auto;
+    margin-top: 5px;
+    width:700px;
+    height:430px;
+    font-size: 20px;
+    border-radius:30px;
+ }
+ 
+ form{
+    width: 30%;
+    margin: 0px auto;
+    padding: 30px;
+    background-color: transparent;
+}
+.lab{
+        display: block;
+        text-align: left;
+        margin:0;
+        padding: 0;
+        font-weight:bold;
+}
+ input{
+    width:100%;
+    margin-bottom: 15px;
+}
+ input[type="text"]{
+    border:none;
+    border-bottom:1px solid gray;
+    background:transparent;
+    outline:none ;
+    height: 27px;
+    color:gray;
+    font-size: 14px;
+}
+ input[type="submit"]{
+    border: none;
+    outline:none;
+    height:35px;
+    background: #fb2525;
+    color:#fff;
+    font-size: 16px;
+    border-radius: 20px;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: lightgreen;
+    color: #000;
+}
+	.h2{
+		text-align:center;
+	}
+	.fm{
+		width:600px;
+		box-shadow:0 0 3px rgba(0,0,0,0.3);
+        background:#fff;
+        padding:20px;
+		
+		text-align:center;
+    }
+    .btn{
+   padding: 10px 20px;
+   border: none;
+   outline: none;
+   font-family:"montserrat";
+   border-radius: 20px;
+   width: 200px;
+   background:lightgrey;
+   }
+  .btn:hover{
+   cursor: pointer;
+   background:blue;
+   color:white;
+  }
+ .tale{
+     
+    height: 190px;
+     width:890px;
+     background: #fff;
+     overflow-y: scroll;
+     box-shadow: 0 10px 100px rgba(0,0,0,0.3);
+     
+ }
+ 
+
+  .tab{
+	border-collapse:collapse;
+    
+    margin-right:200px;
+    margin-top: 5px;
+	font-size:0.5cm;
+    min-width:400px;
+    top:70%;
+    left:50%;
+    background-color: white;border:1px solid lightgray;
+}
+.tat{
+	background-color:#009879;
+	color:#ffffff;
+	text-align:left;
+	font-weight:bold;
+} 
+.tab th,.tab td{
+    padding: 12px 15px;
+    border:1px solid lightgray;
+    
+}
+.tab tr{
+	border-bottom:1px solid #dddddd;
+}

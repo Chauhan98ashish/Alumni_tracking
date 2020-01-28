@@ -1,0 +1,120 @@
+body{
+    background-color: wheat;
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-01.jpg");
+    padding: 30px;
+}
+
+form{
+    text-align: center;
+}
+fieldset{
+    vertical-align: middle;
+     width: 80%;
+     margin: auto; 
+    }
+legend{
+    font-style: oblique;
+    font-size:larger;
+}
+div{
+    padding: 5px;
+}
+b{
+    display: block;
+    text-align: left;
+    margin:0;
+    padding: 0;
+    font-weight:bold;
+}
+
+input{
+    padding:8px;
+    font-size: inherit;
+}
+input[type="text"],[type="password"],[type="email"],[type="date"],select,textarea{
+    display: block;
+    box-sizing:border-box;
+    margin-bottom:20px;
+    padding:4px;
+    height:32px;
+    width:220px;
+    outline:none;
+    border: none;
+    border-bottom:1px solid #aaa;
+    font-family:sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition:0.2s ease;
+
+}
+textarea{
+    display: block;
+    
+    background:  #f1f1f1;
+    height:100px;
+    width: 100%;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    font-size:15px;
+}
+#f{
+    float:right;
+    color: red;
+}
+select{
+       height:40px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: rgb(15, 230, 238);
+    outline: none;
+  }
+  
+input[type=submit]{
+    border-radius: 5px;;
+    width: 150px;
+    background-color: darkgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    opacity: 0.9;
+}
+input[type=submit]:hover{
+cursor: pointer;
+background:red;
+}
+.box{
+
+background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-01.jpg");
+margin-top:5px;
+position:relative;
+margin-left: 60px;
+width:1280px;
+height: 1130px;
+background:#fff;
+box-shadow:0 2px 4px rgba(102, 58, 58, 0.6);
+border-radius: 25px;
+}
+
+.left{
+    position:absolute;
+    top:0;
+    left:0;
+    box-sizing:border-box;
+    padding:40px;
+    width:790px;
+    height:590px;
+    margin-top: 80px;
+}
+.right{
+    position:absolute;
+    top:0;
+    right:0;
+    box-sizing:border-box;
+    padding:40px;
+    width:670px;
+    height:630px;
+    margin-top: 80px;
+    background-size: cover;
+    background-position:center;
+}

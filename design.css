@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:0;
+    background:url(loc.jpg);
+    background-size:cover;
+    background-position:center;
+    font-family:sans-serif;
+}
+.back{
+    width:420px;
+    height:500px;
+    background:#000;
+    color:#fff;
+    top:50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.back p{
+    margin:0;
+    padding: 0;
+    font-weight:bold;
+}
+.back input{
+    width:100%;
+    margin-bottom: 20px;
+}
+.back input[type="text"], input[type="password"]{
+    border:none;
+    border-bottom:1px solid rgb(189, 176, 176);
+    background:transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.back input[type="submit"]{
+    border: none;
+    outline:none;
+    height:40px;
+    background: #fb2525;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.back input[type="submit"]:hover{
+    cursor: pointer;
+    background: lightgreen;
+    color: #000;
+}
+.back input[type=checkbox]+ label:before{
+    margin-right:10px;
+    border:0.1cm solid #000;
+    border-radius:1cm;
+}
+.cent{
+    text-align: center;
+    background: ghostwhite;
+    border:4 px solid;
+    margin-top:45px;
+    margin-left: 480px;
+    width:35%;
+    height: 15%;
+    font-size: 20px;
+    border-radius:25px;
+    padding: 20px 20px;
+ }
+ .dash{
+    text-align:center; 
+    font-size:15px;    
+    width:490px;
+    height:350px;
+    background:#000;
+    color:#fff;
+    top:60%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius:30px;
+    }
+    .btn{
+
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+        font-family:"montserrat";
+        border-radius: 20px;
+        width: 200px;
+    }
+    .btn:hover{
+        cursor: pointer;
+        background:burlywood;
+    }
+    a:hover{
+        cursor: pointer;
+        background: greenyellow;
+    }

@@ -1,0 +1,134 @@
+.aa{
+    background-image:url("http://xiaoyuzhishi.com/content/login-bg.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input[type=button]{
+    border-radius: 5px;
+    width: 150px;
+    background-color: darkgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    opacity: 0.9;
+}
+#ima{
+    text-align: center;
+    padding: 10px;
+    
+}
+.akg1{
+    width: 35px;
+    height: 35px;
+}
+.akg2{
+    width: 90px;
+    height: 90px;
+}
+.fac{
+       color:whitesmoke; 
+       font-size:50px;
+       text-align: center;
+   }
+   .fac1{
+    color:whitesmoke; 
+    font-size:30px;
+    text-align: center;
+}
+.xy{
+    text-align: center;
+}
+   #add{
+       padding-left: 50px;
+       float: left;
+   }
+   .akg{
+    float:left;
+    padding: 25px;
+    width: 90px;
+    height: 100px;
+    border-radius: 50%;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+   .contact{
+      
+       padding: 5px;
+       background: #A9A9A9;
+       color: black;
+   }
+   .contact h2{
+       color: #ffffff;
+   }
+#right{
+    text-align: center;
+    padding: 10px;
+       
+}
+.bg{
+    
+    background-position: center;
+    background-size: cover;
+    height:125vh;
+}
+.cen{
+    position: absolute;
+    top: 10%;
+    left:10%;
+    text-align: center;
+    transform: translate(50%, 50%);
+    box-shadow: 0 0 3px 0 rgba(219, 8, 138, 0.904);
+    background: rgba(20, 171, 230, 0.438);
+    padding: 10px;
+    border-radius: 10%;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+ul li{
+    list-style: none;
+    border: 2px solid transparent;
+    font-size: 15px;
+    margin: 30px;
+    border-radius: 15px;
+    font-family: arial;
+}
+ul li a{
+    text-decoration: none;
+    padding: 15px 35px;
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+    color: whitesmoke;
+    border: 2px solid rgb(255.30,50,1);
+
+}
+ul li:hover a{
+    box-shadow: 0px 0px 10px rgb(255,255,255,0.5), 0px 0px 10px rgb(255,255,255,1);
+    background-color: rgb(59, 240, 35);
+}
+.vl {
+    border-left: 3px solid black;
+    top: 140.5%;
+    height: 230px;
+    position: absolute;
+    left: 25%;
+    margin-left: -3px;
+  }
+  .vl1{
+    border-left: 3px solid black;
+    top: 140.5%;
+    height: 230px;
+    position: absolute;
+    left: 65%;
+    margin-left: -3px;
+  }
+  hr{
+      border: 1.5px solid black;
+      width: 550%;
+  }
